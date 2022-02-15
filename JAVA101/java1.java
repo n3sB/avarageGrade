@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class java1 {
     public static void main(String[] args) {
       
-      /*  int a = 123;
+       int a = 123;
         int sd = 23;
 
         sd *= a;
@@ -15,7 +15,7 @@ public class java1 {
         int scanner1 = scanner.nextInt();
         System.out.println("Your age is " + scanner1);
         scanner.close();
-    */
+    
         int number1 = 5;
         int number2 = 4;
         int number3 = 12;
@@ -24,6 +24,6 @@ public class java1 {
         boolean totalCondition = condition1 || condition2;
 
         String str = (totalCondition) ? "true": "false"; 
-        System.out.println(totalCondition);
+        System.out.println(str);
     }
 }
