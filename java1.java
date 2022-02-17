@@ -1,4 +1,4 @@
-package JAVA101;
+
 
 import java.util.Scanner;
 
