@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class avarageGrade {
+public class averageGrade {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -27,12 +27,12 @@ public class avarageGrade {
     System.out.println(" ");
     
     
-    double avarageGrade = (physics+chemistry+turkish+history+music)/5;
+    double averageGrade = (physics+chemistry+turkish+history+music)/5;
     scanner.close();
 
-    boolean condition = avarageGrade > 60;
+    boolean condition = averageGrade > 60;
 
-    String passedOrFailed = (condition) ? "Sınıfı " + avarageGrade + " İle Geçti" :"Sınıfta Kaldı";
+    String passedOrFailed = (condition) ? "Sınıfı " + averageGrade + " İle Geçti" :"Sınıfta Kaldı";
 
         System.out.println(passedOrFailed);
     }
