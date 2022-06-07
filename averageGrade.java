@@ -1,3 +1,5 @@
+package avarageGrade;
+
 import java.util.Scanner;
 
 public class averageGrade {
